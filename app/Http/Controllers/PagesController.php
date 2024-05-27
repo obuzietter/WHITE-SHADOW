@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Testimonial;
 
 class PagesController extends Controller
 {
@@ -10,7 +11,8 @@ class PagesController extends Controller
         return view("index");
     }
     public function about(){
-        return view("about");
+        $testimonials = Testimonial::all()->where('approved', 1);
+        return view("about")->with('testimonials', $testimonials);
     }
     public function services(){
         return view("services");
