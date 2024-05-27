@@ -12,10 +12,13 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Columns\ImageColumn;
+
 use Filament\Forms\Form;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Toggle;
+use Filament\Forms\Components\FileUpload;
 
 
 use Illuminate\Database\Eloquent\Builder;
@@ -37,6 +40,7 @@ class TestimonialResource extends Resource
                 TextInput::make('company'),
                 TextInput::make('job_title'),
                 Textarea::make('message'),
+                FileUpload::make('image'),
                 Toggle::make('approved')
                     ->onIcon('heroicon-m-globe-alt')
                     ->onColor('success')
@@ -53,6 +57,7 @@ class TestimonialResource extends Resource
             ->columns([
                 IconColumn::make('approved')
                     ->boolean(),
+                ImageColumn::make('image'),
                 TextColumn::make('name'),
                 TextColumn::make('email'),
                 TextColumn::make('location'),

@@ -104,8 +104,6 @@
       </div>
       
     </section><!-- End About Section -->
-
-    {{ $testimonials }}
     
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">

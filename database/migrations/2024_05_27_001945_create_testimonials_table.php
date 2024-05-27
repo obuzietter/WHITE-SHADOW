@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('location');
             $table->string('company');
             $table->string('job_title');
+            $table->string('image');
             $table->text('message');
             $table->boolean('approved')->default(false);
 
