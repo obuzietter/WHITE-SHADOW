@@ -129,7 +129,7 @@
                   {{ $testimonial->message }}
                 </p>
                 <div class="profile mt-auto">
-                  <img src="/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <img src="storage/{{$testimonial->image}}" class="testimonial-img" alt="">
                   <h3>{{ $testimonial['name'] }}</h3>
                   <h4>{{$testimonial['job_title']}}</h4>
                   <h5>{{ $testimonial['company'] }}</h5>

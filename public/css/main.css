@@ -22,9 +22,9 @@
   --color-default: #fafafa;
   --color-primary: #007dfa;
   --color-secondary: #00022d;
+  --border-radius: 10px;
 
-  
-  
+
 }
 
 /* Smooth scroll behavior */
@@ -342,16 +342,18 @@ h6 {
 .header .header-social-links a:hover {
   color: #fff;
   scale: 1.1;
-  &:nth-child(1){
-    
+
+  &:nth-child(1) {
+
     color: #ff004c;
-    
-  
+
+
   }
-  &:nth-child(2){
+
+  &:nth-child(2) {
     color: #25F4EE;
-    
-  
+
+
   }
 }
 
@@ -598,11 +600,12 @@ h6 {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about{
+.about {
   background-color: white;
   color: #000;
   padding: 3rem 0;
 }
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -642,7 +645,8 @@ h6 {
   box-sizing: content-box;
   padding: 30px;
   margin: 40px 30px;
-  background: var(--color-secondary);
+  border-radius: var(--border-radius);
+  /* background: var(--color-secondary); */
   background: var(--color-primary);
   min-height: 320px;
   display: flex;
@@ -662,8 +666,9 @@ h6 {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 50%;
-  border: 5px solid #474a4d;
+  height: 90px;
+  border-radius: 100%;
+  border: 3px solid #ffffff;
   margin: 0 auto;
 }
 
@@ -703,6 +708,7 @@ h6 {
 
 .testimonials .swiper-slide {
   opacity: 0.3;
+
 }
 
 @media (max-width: 1199px) {
@@ -738,7 +744,7 @@ h6 {
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
 }
 
 .gallery .gallery-item img {
@@ -752,6 +758,7 @@ h6 {
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
   z-index: 3;
+
 }
 
 .gallery .gallery-links .preview-link,

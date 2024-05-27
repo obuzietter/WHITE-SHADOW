@@ -40,7 +40,7 @@ class TestimonialResource extends Resource
                 TextInput::make('company'),
                 TextInput::make('job_title'),
                 Textarea::make('message'),
-                FileUpload::make('image'),
+                FileUpload::make('image')->nullable(),
                 Toggle::make('approved')
                     ->onIcon('heroicon-m-globe-alt')
                     ->onColor('success')
@@ -57,7 +57,10 @@ class TestimonialResource extends Resource
             ->columns([
                 IconColumn::make('approved')
                     ->boolean(),
-                ImageColumn::make('image'),
+                ImageColumn::make('image')
+                    ->circular()
+                    ->width(75)
+                    ->height(75),
                 TextColumn::make('name'),
                 TextColumn::make('email'),
                 TextColumn::make('location'),
