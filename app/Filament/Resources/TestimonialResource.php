@@ -40,7 +40,9 @@ class TestimonialResource extends Resource
                 TextInput::make('company'),
                 TextInput::make('job_title'),
                 Textarea::make('message'),
-                FileUpload::make('image')->nullable(),
+                FileUpload::make('image')
+                ->nullable()
+                ->directory('testimonial_pics'),
                 Toggle::make('approved')
                     ->onIcon('heroicon-m-globe-alt')
                     ->onColor('success')
