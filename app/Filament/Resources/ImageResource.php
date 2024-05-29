@@ -49,7 +49,6 @@ class ImageResource extends Resource
                         'fashion_beauty' => 'Fashion and Beauty',
                         'architecture_interiors' => 'Architecture and Interiors',
                         'seasonal_holidays' => 'Seasonal and Holidays',
-                        'historical_vintage' => 'Historical and Vintage',
                         'science_technology' => 'Science and Technology',
                         'education_learning' => 'Education and Learning',
                         'emotions_expressions' => 'Emotions and Expressions',
