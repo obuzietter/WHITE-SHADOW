@@ -42,6 +42,9 @@ class TestimonialResource extends Resource
                 Textarea::make('message'),
                 FileUpload::make('image')
                 ->nullable()
+                ->moveFiles()
+                ->image()
+                ->imageEditor()
                 ->directory('testimonial_pics'),
                 Toggle::make('approved')
                     ->onIcon('heroicon-m-globe-alt')

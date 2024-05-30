@@ -21,7 +21,8 @@ class PagesController extends Controller
     }
     public function services()
     {
-        return view("services");
+        $testimonials = Testimonial::all()->where('approved', 1);
+        return view("services")->with('testimonials', $testimonials);
     }
     public function contact()
     {

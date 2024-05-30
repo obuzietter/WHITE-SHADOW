@@ -50,8 +50,8 @@
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2>Nature (16 images)</h2>
-            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+            <h2>Nature (17 images)</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate impedit eos libero quisquam doloribus tempora nulla minus eius odit delectus!</p>
 
             <a class="cta-btn" href="contact">Available for hire</a>
 

@@ -23,7 +23,8 @@ class ImageResource extends Resource
 {
     protected static ?string $model = Image::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-s-banknotes';
+    protected static ?string $navigationLabel = 'Gallery';
 
     public static function form(Form $form): Form
     {
@@ -31,13 +32,14 @@ class ImageResource extends Resource
             ->schema([
                 FileUpload::make('path')
                     ->image()
+                    ->imageEditor()
                     ->directory('gallery_images')
-                    ->image()
-                    ->imageEditor(),
+                    ->moveFiles()
+                    ->multiple(),
                 Select::make('category')
                     ->options([
-                        'nature_wildlife' => 'Nature and Wildlife',
                         'people_portraits' => 'People and Portraits',
+                        'nature_wildlife' => 'Nature and Wildlife',
                         'travel_places' => 'Travel and Places',
                         'sports_action' => 'Sports and Action',
                         'art_abstract' => 'Art and Abstract',

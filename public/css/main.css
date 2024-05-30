@@ -976,6 +976,11 @@ h6 {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.services{
+  background-color: white;
+  padding: 3rem 0 3rem;
+
+}
 .services .service-item {
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
