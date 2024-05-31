@@ -68,33 +68,33 @@
 
           <div class="col-xl-3 col-md-6 d-flex">
             <div class="service-item position-relative">
-              <i class="bi bi-activity"></i>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <i class="bi bi-brilliance"></i>
+              <h4><a href="" class="stretched-link">Wedding Photography</a></h4>
+              <p>Capture the magic of your special day with our exquisite wedding photography services. From candid moments to stunning portraits, we ensure every precious memory is beautifully preserved.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex">
             <div class="service-item position-relative">
-              <i class="bi bi-bounding-box-circles"></i>
-              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <i class="bi bi-passport"></i>
+              <h4><a href="" class="stretched-link">Portrait Photography</a></h4>
+              <p> Whether it's individual, family, or corporate portraits, we specialize in creating timeless and captivating images that showcase your personality and style in the best light.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex">
             <div class="service-item position-relative">
               <i class="bi bi-calendar4-week"></i>
-              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="" class="stretched-link">Event Photography</a></h4>
+              <p>From birthdays and anniversaries to corporate events, our expert photographers are dedicated to documenting the essence and excitement of your event, creating memories that last a lifetime.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex">
             <div class="service-item position-relative">
-              <i class="bi bi-broadcast"></i>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <i class="bi bi-currency-exchange"></i>
+              <h4><a href="" class="stretched-link">Commercial Photography</a></h4>
+              <p>Enhance your brand's visual appeal with our professional commercial photography services. We provide high-quality images for advertising, product showcases, and business promotions that help you stand out in the market.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -109,9 +109,8 @@
 
         <div class="section-header">
           <h2>Prices</h2>
-          <p>Check my adorable pricing</p>
+          <p>Check our adorable pricing</p>
         </div>
-
         <div class="row gy-4 gx-lg-5">
 
           <div class="col-lg-6">
@@ -145,6 +144,7 @@
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
               <h3>Wedding Photography</h3>
+              <p>dsfnjdflk</p>
               <h4>$500.00</h4>
             </div>
           </div><!-- End Pricing Item -->
@@ -157,6 +157,7 @@
           </div><!-- End Pricing Item -->
 
         </div>
+
     </section><!-- End Pricing Section -->
 
     <!-- ======= Testimonials Section ======= -->

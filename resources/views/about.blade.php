@@ -51,7 +51,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
             <h2>About</h2>
-            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+            <p>Welcome to White Shadow Photography, where every shutter captures the essence of life's most precious moments. Our passion for photography is driven by the desire to tell stories through stunning visuals that evoke emotion, inspire creativity, and preserve memories for a lifetime.</p>
 
             <a class="cta-btn" href="contact">Available for hire</a>
 
@@ -69,17 +69,16 @@
             <img src="/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-5 content">
-            <h2>Professional Photographer from Nairobi</h2>
+            <h2>Professional Photography in Nairobi</h2>
             <p class="fst-italic py-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Discover the Art of Timeless Photography with White Shadow Photography.
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11th May 2002</span></li>
+                  {{-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11th May 2002</span></li> --}}
                   <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.whiteshadow.art</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+254 111 521 101 </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+254 796 974 327</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Nairobi, KENYA</span></li>
                 </ul>
               </div>
@@ -88,15 +87,15 @@
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> -->
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li> -->
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>whiteshadow3980@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Works:</strong> <span>Freelance, Corporate, Event, Product</span></li>
                 </ul>
               </div>
             </div>
             <p class="py-3">
-              I describe myself as a "chronic creative and all around goofball". I love to create, geek out over TV shows, tell stories, make people laugh, and hear about people's passions (tell me about the podcast you've been obsessed with! I wanna hear about it!) In my free time you can find me crafting, listening to music, playing board games with friends and, on free weekends, going camping!
+              At White Shadow Photography, we believe that photography is more than just taking pictures — it's about creating art that speaks to the heart. With years of experience and a keen eye for detail, our team is dedicated to providing you with exceptional service and breathtaking images that reflect your unique personality and style. Whether it's a wedding, a family portrait, or a special event, we are committed to capturing your most cherished moments with elegance and creativity.
             </p>
             <p class="m-0">
-              I strive to bring an inclusive and comfortable environment to all of my clients. You should feel heard & feel fabulous! Getting in front of the camera can be nerve wracking, I aim to create a space where you can be yourself, feel confident & be vulnerable so we can create some gorgeous portraits!
+              We understand that every client has a distinct vision, and we strive to make that vision a reality. Our approach is personalized and collaborative, ensuring that each session is tailored to your specific needs and preferences. From the initial consultation to the final delivery of your photos, we work closely with you to ensure that every detail is perfect. Using the latest equipment and techniques, we create images that are not only beautiful but also timeless, allowing you to relive your favorite memories for years to come.
             </p>
           </div>
         </div>
@@ -116,9 +115,6 @@
 
         <div class="slides-3 swiper">
           <div class="swiper-wrapper">
-
-            
-
             @foreach ($testimonials as $testimonial)
             <div class="swiper-slide">
               <div class="testimonial-item">

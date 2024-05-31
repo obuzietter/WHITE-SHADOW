@@ -54,7 +54,7 @@
                     <h2>I'm <span>Calvince Obuya</span> a Professional Photographer from Nairobi, Kenya</h2>
                     <p>#creativephotography #photography #creative #photooftheday #art #portrait #photographer #photo
                         #portraitphotography</p>
-                    <a href="contact" class="btn-get-started">Available for hire</a>
+                    <a href="contact" class="btn-get-started"></a>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
                                     <div class="gallery-item h-100">
                                         <img src="storage/{{ $single_path }}" class="img-fluid" alt="" style="height:100%; object-fit:cover">
                                         <div class="gallery-links d-flex align-items-center justify-content-center">
-                                            <a href="storage/{{ $single_path }}" title="Gallery 1"
+                                            <a href="storage/{{ $single_path }}" title="Image"
                                                 class="glightbox preview-link">
                                                 <i class="bi bi-arrows-angle-expand"></i>
                                             </a>
@@ -91,7 +91,7 @@
                                 <div class="gallery-item h-100">
                                     <img src="storage/{{ $image->path }}" class="img-fluid" alt="" style="height:100%; object-fit:cover">
                                     <div class="gallery-links d-flex align-items-center justify-content-center">
-                                        <a href="storage/{{ $image->path }}" title="Gallery 1"
+                                        <a href="storage/{{ $image->path }}" title="Image"
                                             class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                                         <a href="gallery-single" class="details-link"><i
                                                 class="bi bi-link-45deg"></i></a>
