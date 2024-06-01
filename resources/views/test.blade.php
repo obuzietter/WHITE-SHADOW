@@ -1,21 +1,12 @@
-<h1>Image Paths</h1>
-{{-- {{$images}} --}}
-
-
-{{-- @foreach ($images as $image)
-            {{ $image }}
-            <br><br>
-@endforeach --}}
-
-@foreach ($images as $image)
-    
-    @if (is_array($image->path))
-        @foreach ($image->path as $single_path)
-            {{ $single_path }}
-            <br>
-        @endforeach
-    @else
-        {{ $image->path }}
-    @endif
-<br>
-@endforeach
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>testpage</h1>
+</body>
+</html>
