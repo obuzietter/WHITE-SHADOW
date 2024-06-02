@@ -11,8 +11,11 @@
 # Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 --------------------------------------------------------------*/
 /* Fonts */
+
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  /* --font-default:Caveat; */
+  
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Cardo", sans-serif;
 }
@@ -36,7 +39,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: var(--font-default);
+  /* font-family: var(--font-default); */
+  font-family: Orbitron;
   color: var(--color-default);
   background-color: #000;
   /* background-color: var(--color-secondary); */
@@ -52,14 +56,14 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: var(--font-primary);
-}
+} */
 
 /*--------------------------------------------------------------
 # Sections & Section Header
@@ -77,7 +81,7 @@ h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
-  font-family: var(--font-primary);
+  /* font-family: var(--font-primary); */
 }
 
 .section-header h2::after {
@@ -94,7 +98,7 @@ h6 {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
   color: #fff;
 }
 
@@ -111,7 +115,7 @@ h6 {
   font-size: 56px;
   font-weight: 500;
   color: #fff;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
 }
 
 @media (max-width: 768px) {
@@ -125,7 +129,7 @@ h6 {
 }
 
 .page-header .cta-btn {
-  font-family: var(--font-primary);
+  /* font-family: var(--font-primary); */
   font-weight: 400;
   font-size: 14px;
   display: inline-block;
@@ -307,7 +311,7 @@ h6 {
   margin: 0;
   font-weight: 400;
   color: #fff;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
 }
 
 .header .logo i {
@@ -389,7 +393,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-family: var(--font-primary);
+    /* font-family: var(--font-primary); */
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 13px;
@@ -519,7 +523,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    font-family: var(--font-primary);
+    /* font-family: var(--font-primary); */
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 400;
@@ -860,7 +864,7 @@ h6 {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
 }
 
 .gallery-single .portfolio-info h3:after {
@@ -910,7 +914,7 @@ h6 {
   font-weight: 700;
   margin-bottom: 20px;
   color: #fff;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
 }
 
 .gallery-single .portfolio-description p {
@@ -1078,6 +1082,13 @@ h6 {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact {
+  background-color: white;
+  padding: 3rem 0;
+  /* font-family: Space Grotesk; */
+  
+}
+
 .contact .info-item+.info-item {
   margin-top: 40px;
 }
@@ -1088,7 +1099,7 @@ h6 {
   float: left;
   width: 44px;
   height: 44px;
-  background: #222425;
+  background: var(--color-secondary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1102,14 +1113,14 @@ h6 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-secondary);
 }
 
 .contact .info-item p {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
-  color: #fff;
+  color: black;
 }
 
 .contact .info-item:hover i {
@@ -1118,7 +1129,8 @@ h6 {
 }
 
 .contact .php-email-form {
-  width: 100%;
+  width: 90%;
+  
 }
 
 .contact .php-email-form .form-group {
@@ -1175,6 +1187,10 @@ h6 {
   background-color: var(--color-secondary);
   border: 1px solid #2e3133;
   color: #fff;
+  &::placeholder{
+    color: #fff;
+    font-style: italic;
+  }
 }
 
 .contact .php-email-form input {
@@ -1225,7 +1241,7 @@ h6 {
   font-size: 38px;
   font-weight: 700;
   color: #fff;
-  font-family: var(--font-secondary);
+  /* font-family: var(--font-secondary); */
 }
 
 .hero h2 span {
