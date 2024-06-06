@@ -616,6 +616,9 @@ h6 {
   color: var(--color-primary);
 }
 
+
+
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -1106,6 +1109,7 @@ h6 {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
   margin-right: 15px;
+
 }
 
 .contact .info-item h4 {
@@ -1126,7 +1130,10 @@ h6 {
 .contact .info-item:hover i {
   background: var(--color-primary);
   color: #fff;
+
+  
 }
+
 
 .contact .php-email-form {
   width: 90%;

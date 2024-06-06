@@ -71,10 +71,10 @@
 
           <div class="col-lg-3">
             <div class="info-item d-flex">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <i class="bi bi-whatsapp flex-shrink-0"></i>
               <div>
-                <h4>Location:</h4>
-                <p>TRM Drive, Nairobi, KENYA</p>
+                <h4>Whatsapp:</h4>
+                <p>+254 796 974 327</p>
               </div>
             </div>
           </div><!-- End Info Item -->
