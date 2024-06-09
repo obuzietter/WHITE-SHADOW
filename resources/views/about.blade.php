@@ -54,6 +54,8 @@
             <p>Welcome to White Shadow Photography, where every shutter captures the essence of life's most precious moments. Our passion for photography is driven by the desire to tell stories through stunning visuals that evoke emotion, inspire creativity, and preserve memories for a lifetime.</p>
 
             <a class="cta-btn" href="contact">Available for hire</a>
+            
+              
 
           </div>
         </div>

@@ -67,20 +67,23 @@
             <div class="container-fluid">
 
                 <div class="row gy-4 justify-content-center">
-
+                  
                     @foreach ($images as $image)
+                        
                         @if (is_array($image->path))
                             @foreach ($image->path as $single_path)
                                 <div class="col-xl-3 col-lg-4 col-md-6">
                                     <div class="gallery-item h-100">
-                                        <img src="storage/{{ $single_path }}" class="img-fluid" alt="" style="height:100%; object-fit:cover">
+                                        <img src="storage/{{ $single_path }}" class="img-fluid" alt=""
+                                            style="height:100%; object-fit:cover">
                                         <div class="gallery-links d-flex align-items-center justify-content-center">
                                             <a href="storage/{{ $single_path }}" title="Image"
                                                 class="glightbox preview-link">
                                                 <i class="bi bi-arrows-angle-expand"></i>
                                             </a>
-                                            <a href="gallery-single" class="details-link">
-                                                <i class="bi bi-link-45deg"></i>
+                                            <a download="White Shadow Photo" href="storage/{{ $single_path }}"
+                                                class="details-link" title="White Shadow Photo">
+                                                <i class="bi bi-download"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -89,12 +92,17 @@
                         @else
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="gallery-item h-100">
-                                    <img src="storage/{{ $image->path }}" class="img-fluid" alt="" style="height:100%; object-fit:cover">
+                                    <img src="storage/{{ $image->path }}" class="img-fluid" alt=""
+                                        style="height:100%; object-fit:cover">
                                     <div class="gallery-links d-flex align-items-center justify-content-center">
                                         <a href="storage/{{ $image->path }}" title="Image"
-                                            class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                                        <a href="gallery-single" class="details-link"><i
-                                                class="bi bi-link-45deg"></i></a>
+                                            class="glightbox preview-link">
+                                            <i class="bi bi-arrows-angle-expand"></i>
+                                        </a>
+                                        <a download="White Shadow Photo" href="storage/{{ $image->path }}"
+                                            class="details-link" title="White Shadow Photo">
+                                            <i class="bi bi-download"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div><!-- End Gallery Item -->
@@ -114,10 +122,10 @@
 
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
-
+    {{-- 
     <div id="preloader">
         <div class="line"></div>
-    </div>
+    </div> --}}
 
     <!-- Vendor JS Files -->
     <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
