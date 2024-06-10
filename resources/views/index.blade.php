@@ -51,9 +51,18 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
-                    <h2>I'm <span>Calvince Obuya</span> a Professional Photographer from Nairobi, Kenya</h2>
-                    <p>#creativephotography #photography #creative #photooftheday #art #portrait #photographer #photo
-                        #portraitphotography</p>
+                    <h2>
+                        <span>White Shadow Photography</span>
+                        <br>
+                        <i>Capture The Moment</i>
+                    </h2>
+                    <p>
+                        <i>
+                            #creativephotography #photography #creative #photooftheday #art #portrait #photographer
+                            #photo
+                            #portraitphotography
+                        </i>
+                    </p>
                     <a href="contact" class="btn-get-started"></a>
                 </div>
             </div>
@@ -67,9 +76,8 @@
             <div class="container-fluid">
 
                 <div class="row gy-4 justify-content-center">
-                  
+
                     @foreach ($images as $image)
-                        
                         @if (is_array($image->path))
                             @foreach ($image->path as $single_path)
                                 <div class="col-xl-3 col-lg-4 col-md-6">

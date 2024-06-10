@@ -71,7 +71,7 @@
             <img src="/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-5 content">
-            <h2>Professional Photography in Nairobi</h2>
+            <h2>Professional Photography from the Heart of Kenya</h2>
             <p class="fst-italic py-3">
               Discover the Art of Timeless Photography with White Shadow Photography.
             </p>
@@ -151,9 +151,9 @@
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <div id="preloader">
+  {{-- <div id="preloader">
     <div class="line"></div>
-  </div>
+  </div> --}}
 
   <!-- Vendor JS Files -->
   <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

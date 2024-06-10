@@ -14,6 +14,7 @@ Route::get('/gallery-single', [PagesController::class, 'gallerySingle']);
 
 Route::get('/test', function(){
     // $images = Image::inRandomOrder()->get();
+    
     $images = Image::all();
     
     return view('test')->with('images', $images);

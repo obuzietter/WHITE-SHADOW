@@ -115,44 +115,49 @@
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
-              <h3>Portrait Photography</h3>
-              <h4>$160.00</h4>
+              <h3>Product Photography</h3>
+              <p>@100 per photo</p>
+              <h4>KES 100.00</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
               <h3>Fashion Photography</h3>
-              <h4>$300.00</h4>
+              <p style="border: 1px solid red: flex: 1">@200 per photo</p>
+              <h4>KES 200.00</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
-              <h3>Sports Photography</h3>
-              <h4>$200.00</h4>
+              <h3>Street Photography</h3>
+              <p>@150 per photo</p>
+              <h4>KES 150.00</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
-              <h3>Still Life Photography</h3>
-              <h4>$120.00</h4>
+              <h3>Mini Event Photography</h3>
+              <p>@1500 per hour</p>
+              <h4>KES 1500.00</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
-              <h3>Wedding Photography</h3>
-              <p>dsfnjdflk</p>
-              <h4>$500.00</h4>
+              <h3>Baby Shower </h3>
+              <p>@350 per photo</p>
+              <h4>KES 3500.00</h4>
             </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-6">
             <div class="pricing-item d-flex justify-content-between">
               <h3>Photojournalism</h3>
-              <h4>$200.00</h4>
+              <p>@200 per photo</p>
+              <h4>KES 200.00</h4>
             </div>
           </div><!-- End Pricing Item -->
 
@@ -206,9 +211,9 @@
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <div id="preloader">
+  {{-- <div id="preloader">
     <div class="line"></div>
-  </div>
+  </div> --}}
 
   <!-- Vendor JS Files -->
   <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
