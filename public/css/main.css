@@ -1190,13 +1190,20 @@ h6 {
 .contact .php-email-form textarea {
   border-radius: 4px;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 1rem;
   background-color: var(--color-secondary);
   border: 1px solid #2e3133;
   color: #fff;
   &::placeholder{
     color: #fff;
     font-style: italic;
+  }
+  &:hover{
+    border: 2px solid var(--color-primary);
+    
+  }
+  &:focus{
+    border: 2px solid var(--color-primary);
   }
 }
 
