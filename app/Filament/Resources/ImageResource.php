@@ -40,26 +40,23 @@ class ImageResource extends Resource
                     ->options([
                         'people_portraits' => 'People and Portraits',
                         'nature_wildlife' => 'Nature and Wildlife',
-                        'travel_places' => 'Travel and Places',
-                        'sports_action' => 'Sports and Action',
+                        // 'travel_places' => 'Travel and Places',
+                        // 'sports_action' => 'Sports and Action',
                         'art_abstract' => 'Art and Abstract',
                         'events_occasions' => 'Events and Occasions',
                         'food_drink' => 'Food and Drink',
-                        'lifestyle_hobbies' => 'Lifestyle and Hobbies',
-                        'technology_industry' => 'Technology and Industry',
-                        'business_work' => 'Business and Work',
+                        // 'lifestyle_hobbies' => 'Lifestyle and Hobbies',
+                        // 'technology_industry' => 'Technology and Industry',
+                        'commercial_business' => 'Commercial and Business',
                         'fashion_beauty' => 'Fashion and Beauty',
-                        'architecture_interiors' => 'Architecture and Interiors',
+                        // 'architecture_interiors' => 'Architecture and Interiors',
                         'seasonal_holidays' => 'Seasonal and Holidays',
                         'science_technology' => 'Science and Technology',
-                        'education_learning' => 'Education and Learning',
-                        'emotions_expressions' => 'Emotions and Expressions',
+                        // 'education_learning' => 'Education and Learning',
+                        // 'emotions_expressions' => 'Emotions and Expressions',
+                        
                     ])
                     ->selectablePlaceholder(false)
-
-
-
-
 
             ]);
     }

@@ -30,7 +30,9 @@ class PagesController extends Controller
     }
     public function gallery()
     {
-        return view("gallery");
+        $images = Image::inRandomOrder()->get();
+        
+        return view("gallery")->with('images', $images);
     }
     public function gallerySingle()
     {
