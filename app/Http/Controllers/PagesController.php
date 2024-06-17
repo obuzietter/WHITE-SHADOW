@@ -31,11 +31,32 @@ class PagesController extends Controller
     public function gallery()
     {
         $images = Image::inRandomOrder()->get();
-        
+        // $images = Image::all()->where('category', 'people_portraits');
+        // $imageCategories = [
+        //     'portrait' => Image::all()->where('category', 'people_portraits')
+        // ];
+
         return view("gallery")->with('images', $images);
     }
-    public function gallerySingle()
+    public function gallerySingle($category)
     {
-        return view("gallery-single");
+        $images = Image::where('category', $category)->get();
+
+        $singleCount = 0;
+        $arrayCount = 0;
+        foreach ($images as $image) {
+            if (is_array($image->path)) {
+                $arrayCount += count($image->path);
+            } else {
+                $singleCount++;
+            }
+        }
+        $totalCount = $singleCount + $arrayCount;
+        $categoryArr = [
+            'people_portraits' => 'People and Portraits',
+            'events_occasions' => 'Events and Occasions',
+            'commercial_business' => 'Commercial and Business',
+        ];
+        return view('gallery', compact('images', 'totalCount', 'category', 'categoryArr'));
     }
 }

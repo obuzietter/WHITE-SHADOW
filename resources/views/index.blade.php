@@ -83,7 +83,7 @@
                                 <div class="col-xl-3 col-lg-4 col-md-6">
                                     <div class="gallery-item h-100">
                                         <img src="storage/{{ $single_path }}" class="img-fluid" alt=""
-                                            style="height:100%; object-fit:cover">
+                                            style="height:100%; object-fit:cover" loading="lazy">
                                         <div class="gallery-links d-flex align-items-center justify-content-center">
                                             <a href="storage/{{ $single_path }}" title="Image"
                                                 class="glightbox preview-link">
@@ -101,7 +101,7 @@
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="gallery-item h-100">
                                     <img src="storage/{{ $image->path }}" class="img-fluid" alt=""
-                                        style="height:100%; object-fit:cover">
+                                        style="height:100%; object-fit:cover" loading="lazy">
                                     <div class="gallery-links d-flex align-items-center justify-content-center">
                                         <a href="storage/{{ $image->path }}" title="Image"
                                             class="glightbox preview-link">

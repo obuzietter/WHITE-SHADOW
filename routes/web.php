@@ -10,7 +10,9 @@ Route::get('/about', [PagesController::class, 'about']);
 Route::get('/services', [PagesController::class, 'services']);
 Route::get('/contact', [PagesController::class, 'contact']);
 Route::get('/gallery', [PagesController::class, 'gallery']);
-Route::get('/gallery-single', [PagesController::class, 'gallerySingle']);
+Route::get('/gallery-single/{category}', [PagesController::class, 'gallerySingle']);
+// Route::get('/gallery/{category}', [GalleryController::class, 'show'])->name('gallery.show');
+
 
 Route::get('/test', function(){
     // $images = Image::inRandomOrder()->get();

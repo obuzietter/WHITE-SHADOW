@@ -39,22 +39,22 @@ class ImageResource extends Resource
                 Select::make('category')
                     ->options([
                         'people_portraits' => 'People and Portraits',
-                        'nature_wildlife' => 'Nature and Wildlife',
+                        // 'nature_wildlife' => 'Nature and Wildlife',
                         // 'travel_places' => 'Travel and Places',
                         // 'sports_action' => 'Sports and Action',
-                        'art_abstract' => 'Art and Abstract',
+                        // 'art_abstract' => 'Art and Abstract',
                         'events_occasions' => 'Events and Occasions',
-                        'food_drink' => 'Food and Drink',
+                        // 'food_drink' => 'Food and Drink',
                         // 'lifestyle_hobbies' => 'Lifestyle and Hobbies',
                         // 'technology_industry' => 'Technology and Industry',
                         'commercial_business' => 'Commercial and Business',
-                        'fashion_beauty' => 'Fashion and Beauty',
+                        // 'fashion_beauty' => 'Fashion and Beauty',
                         // 'architecture_interiors' => 'Architecture and Interiors',
-                        'seasonal_holidays' => 'Seasonal and Holidays',
-                        'science_technology' => 'Science and Technology',
+                        // 'seasonal_holidays' => 'Seasonal and Holidays',
+                        // 'science_technology' => 'Science and Technology',
                         // 'education_learning' => 'Education and Learning',
                         // 'emotions_expressions' => 'Emotions and Expressions',
-                        
+
                     ])
                     ->selectablePlaceholder(false)
 
@@ -69,6 +69,7 @@ class ImageResource extends Resource
                     ->square()
                     ->width(75)
                     ->height(75),
+                TextColumn::make('category')
 
             ])
             ->filters([

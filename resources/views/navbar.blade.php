@@ -12,21 +12,21 @@
         <ul>
           <li><a href="/" class="active">Home</a></li>
           <li><a href="about">About</a></li>
-          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="gallery"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="gallery">Nature</a></li>
-              <li><a href="gallery">People</a></li>
-              <li><a href="gallery">Architecture</a></li>
-              <li><a href="gallery">Animals</a></li>
-              <li><a href="gallery">Sports</a></li>
-              <li><a href="gallery">Travel</a></li>
-              <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <li><a href="/gallery-single/people_portraits">People and Portraits</a></li>
+              <li><a href="/gallery-single/commercial_business">Commercial and Business</a></li>
+              <li><a href="/gallery-single/events_occasions">Events and Occasions</a></li>
+              {{-- <li><a href="gallery">Animals</a></li> --}}
+              {{-- <li><a href="gallery">Sports</a></li> --}}
+              {{-- <li><a href="gallery">Travel</a></li> --}}
+              {{-- <li class="dropdown"><a href="#"><span>Sub Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#">Sub Menu 1</a></li>
                   <li><a href="#">Sub Menu 2</a></li>
                   <li><a href="#">Sub Menu 3</a></li>
                 </ul>
-              </li>
+              </li> --}}
             </ul>
           </li>
           <li><a href="services">Services</a></li>
