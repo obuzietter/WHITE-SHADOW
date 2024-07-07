@@ -1,88 +1,133 @@
-
-    <!-- ======= Gallery Single Section ======= -->
-    <section id="gallery-single" class="gallery-single">
-      <div class="container">
-
-        <div class="position-relative h-100">
-          <div class="slides-1 portfolio-details-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-
-              <div class="swiper-slide">
-                <img src="/img/gallery/gallery-8.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="/img/gallery/gallery-9.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="/img/gallery/gallery-10.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="/img/gallery/gallery-11.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="/img/gallery/gallery-12.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="/img/gallery/gallery-13.jpg" alt="">
-              </div>
-
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .service {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .service h2 {
+            margin-top: 0;
+        }
+        .service ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .service ul li {
+            margin-bottom: 5px;
+        }
+        .service .price {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="service">
+            <h2>Fashion Photography</h2>
+            <ul>
+                <li>Professional models</li>
+                <li>Studio or outdoor</li>
+                <li>High-end retouching</li>
+            </ul>
+            <div class="price">$800</div>
         </div>
 
-        <div class="row justify-content-between gy-4 mt-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-              <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-              </p>
-
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <div>
-                  <img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
-              </div>
-
-              <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-
-              <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-              </p>
-
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong> <span>Nature Photography</span></li>
-                <li><strong>Client</strong> <span>ASU Company</span></li>
-                <li><strong>Project date</strong> <span>01 March, 2022</span></li>
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
-              </ul>
-            </div>
-          </div>
-
+        <div class="service">
+            <h2>Baby Shower</h2>
+            <ul>
+                <li>Capturing special moments</li>
+                <li>Group and individual shots</li>
+                <li>Online gallery</li>
+            </ul>
+            <div class="price">$500</div>
         </div>
 
-      </div>
-    </section><!-- End Gallery Single Section -->
+        <div class="service">
+            <h2>Photojournalism</h2>
+            <ul>
+                <li>Capturing events as they unfold</li>
+                <li>Documentary style</li>
+                <li>Storytelling approach</li>
+            </ul>
+            <div class="price">$700</div>
+        </div>
+
+        <div class="service">
+            <h2>Event Photography</h2>
+            <ul>
+                <li>Weddings, parties, etc.</li>
+                <li>Full coverage</li>
+                <li>Prints and albums available</li>
+            </ul>
+            <div class="price">$1000</div>
+        </div>
+
+        <div class="service">
+            <h2>Street Photography</h2>
+            <ul>
+                <li>Urban environments</li>
+                <li>Candid moments</li>
+                <li>Artistic compositions</li>
+            </ul>
+            <div class="price">$400</div>
+        </div>
+
+        <div class="service">
+            <h2>Family Time</h2>
+            <ul>
+                <li>Family portraits</li>
+                <li>Casual and posed shots</li>
+                <li>Online gallery</li>
+            </ul>
+            <div class="price">$600</div>
+        </div>
+
+        <div class="service">
+            <h2>Real Estate Photography</h2>
+            <ul>
+                <li>Property interiors and exteriors</li>
+                <li>Enhanced lighting techniques</li>
+                <li>Fast turnaround</li>
+            </ul>
+            <div class="price">$300</div>
+        </div>
+
+        <div class="service">
+            <h2>Product Photography</h2>
+            <ul>
+                <li>High-quality product shots</li>
+                <li>White background or lifestyle</li>
+                <li>Post-production editing</li>
+            </ul>
+            <div class="price">$200</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.booking{
+    background-color: white;
+    padding: 3rem 0;
+    
+    h2{
+        color: black;
+        text-transform: capitalize;
+    }
+
+    label{
+        visibility: hidden;
+    }
+    .btn.btn-primary{
+        margin-top: 1.5rem;
+    }
+    
+}

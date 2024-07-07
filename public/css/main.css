@@ -15,7 +15,7 @@
 :root {
   /* --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   /* --font-default:Caveat; */
-  
+
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Cardo", sans-serif;
 }
@@ -26,6 +26,15 @@
   --color-primary: #007dfa;
   --color-secondary: #00022d;
   --border-radius: 10px;
+
+  --dark: #222831;
+
+  --grey: #393e46;
+
+  --blue: #0092ca;
+
+  --bright: #eeeeee;
+
 
 
 }
@@ -42,7 +51,7 @@ body {
   /* font-family: var(--font-default); */
   font-family: Orbitron;
   color: var(--color-default);
-  background-color: #000000;
+  /* background-color: #000000; */
   /* background-color: var(--color-secondary); */
 }
 
@@ -141,12 +150,12 @@ h6 {
   color: #fff;
   background: var(--color-secondary);
   outline: 2px solid var(--color-primary);
-  }
-  
-  .page-header .cta-btn:hover {
+}
+
+.page-header .cta-btn:hover {
   background: var(--color-primary);
   scale: 0.98;
-  
+
 }
 
 /*--------------------------------------------------------------
@@ -297,7 +306,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  background-color: #000;
+  background-color: var(--grey);
 }
 
 .header .logo {
@@ -649,6 +658,8 @@ h6 {
 --------------------------------------------------------------*/
 .testimonials {
   margin-top: 80px;
+  padding: 4rem 0;
+  background-color: #000;
 }
 
 .testimonials .testimonial-item {
@@ -1092,7 +1103,7 @@ h6 {
   background-color: white;
   padding: 3rem 0;
   /* font-family: Space Grotesk; */
-  
+
 }
 
 .contact .info-item+.info-item {
@@ -1134,13 +1145,13 @@ h6 {
   background: var(--color-primary);
   color: #fff;
 
-  
+
 }
 
 
 .contact .php-email-form {
   width: 90%;
-  
+
 }
 
 .contact .php-email-form .form-group {
@@ -1197,15 +1208,18 @@ h6 {
   background-color: var(--color-secondary);
   border: 1px solid #2e3133;
   color: #fff;
-  &::placeholder{
+
+  &::placeholder {
     color: #fff;
     font-style: italic;
   }
-  &:hover{
+
+  &:hover {
     outline: 2px solid var(--color-primary);
-    
+
   }
-  &:focus{
+
+  &:focus {
     outline: 2px solid var(--color-primary);
   }
 }
@@ -1257,7 +1271,7 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 38px;
   font-weight: 700;
-  color: #fff;
+  color: var(--dark);
   /* font-family: var(--font-secondary); */
 }
 
@@ -1275,28 +1289,20 @@ h6 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--color-primary);
+  background: var(--blue);
   z-index: -1;
 }
 
 .hero p {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--dark);
   margin-bottom: 30px;
   font-size: 18px;
 }
-
-.hero .btn-get-started {
-  /* font-family: var(--font-primary);
-  font-weight: 400;
-  font-size: 14px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 4px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: 0.3s;
-  color: #fff;
-  background: var(--color-primary); */
+.bi.bi-chevron-double-down{
+  color: var(--blue);
+}
+/* .hero .btn-get-started {
+ 
   display: inline-block;
   position: relative;
   background-color: transparent;
@@ -1311,7 +1317,7 @@ h6 {
   cursor: pointer;
   overflow: hidden;
   transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
-  
+
   &::before {
     content: "GET IN TOUCH";
     /* padding: 12px 40px; */
@@ -1329,7 +1335,7 @@ h6 {
     transform-origin: bottom;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
-  
+
   &::after {
     content: "AVAILABLE FOR HIRE";
     display: flex;
@@ -1345,29 +1351,30 @@ h6 {
     transform: translate(0%, -100%);
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
-  
-  &:hover{
+
+  &:hover {
     border: transparent;
     box-shadow: 0 10px 20px var(--color-primary);
   }
-&:hover::before {
-  transform: translate(0%,0%);
-}
 
-&:hover::after {
-  transform: translate(0%,-200%);
-}
+  &:hover::before {
+    transform: translate(0%, 0%);
+  }
 
-&:focus {
-  outline: none;
-}
+  &:hover::after {
+    transform: translate(0%, -200%);
+  }
 
-& :active {
-  scale: 0.95;
-}
+  &:focus {
+    outline: none;
+  }
+
+  & :active {
+    scale: 0.95;
+  }
 
 
-}
+} */
 
 /* .hero .btn-get-started:hover {
   background: var(--color-secondary);

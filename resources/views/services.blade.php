@@ -27,6 +27,8 @@
 
   <!-- Template Main CSS File -->
   <link href="/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/booking.css">
+  <link rel="stylesheet" href="/css/pricing-table.css">
 
   <!-- =======================================================
   * Template Name: PhotoFolio
@@ -111,59 +113,62 @@
           <h2>Prices</h2>
           <p>Check our adorable pricing</p>
         </div>
-        <div class="row gy-4 gx-lg-5">
+       
+      </div>
 
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Product Photography</h3>
-              <p>@100 per photo</p>
-              <h4>KES 100.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Fashion Photography</h3>
-              <p style="border: 1px solid red: flex: 1">@200 per photo</p>
-              <h4>KES 200.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Street Photography</h3>
-              <p>@150 per photo</p>
-              <h4>KES 150.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Mini Event Photography</h3>
-              <p>@1500 per hour</p>
-              <h4>KES 1500.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Baby Shower </h3>
-              <p>@350 per photo</p>
-              <h4>KES 3500.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Photojournalism</h3>
-              <p>@200 per photo</p>
-              <h4>KES 200.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-        </div>
+       
 
     </section><!-- End Pricing Section -->
+
+<!-- ======= Booking Section ======= -->
+<section id="booking" class="booking">
+  <div class="container mt-5">
+    <h2 class="text-center">Book a session with us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="form-group">
+            <label for="service">Select Service</label>
+            <select class="form-control custom-select" id="service" required>
+                <option value="" hidden>Choose a service</option>
+                <option value="portrait">Portrait Photography</option>
+                <option value="wedding">Wedding Photography</option>
+                <option value="event">Event Photography</option>
+                <option value="product">Product Photography</option>
+                <option value="realestate">Real Estate Photography</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="date">Preferred Date</label>
+            <input type="date" class="form-control" id="date" placeholder="What is the date of the occasion?" required>
+        </div>
+        <div class="form-group">
+            <label for="time">Preferred Time</label>
+            <input type="time" class="form-control" id="time" placeholder="What is the starting time?" required>
+        </div>
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" class="form-control" id="location" placeholder="Enter the location of the shoot" required>
+        </div>
+        <div class="form-group">
+            <label for="details">Additional Details</label>
+            <textarea class="form-control" id="details" rows="3" placeholder="Any additional details or requests"></textarea>
+        </div>
+        
+          <button type="submit" class="btn btn-primary">Submit</button>
+        
+    </form>
+</div>
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
@@ -202,7 +207,9 @@
 
       </div>
     </section><!-- End Testimonials Section -->
+    
 
+    </section>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -225,6 +232,7 @@
   <!-- Template Main JS File -->
   <script src="/js/main.js"></script>
 
+  
 </body>
 
 </html>

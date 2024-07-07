@@ -21,6 +21,7 @@ Route::get('/test', function(){
     
     return view('test')->with('images', $images);
 });
+Route::view('/portal', 'client.portal');
 
 
 

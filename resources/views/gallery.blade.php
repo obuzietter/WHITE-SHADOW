@@ -53,8 +53,9 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-6 text-center">
                         <h2>{{$categoryArr[$category]}} ({{ $totalCount }} image(s))</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate impedit eos libero
-                            quisquam doloribus tempora nulla minus eius odit delectus!</p>
+                        <p>
+                          Explore a curated collection of stunning images that capture the essence of beauty and creativity. From breathtaking landscapes to intimate portraits, our gallery showcases the diverse talent and unique perspectives of our photographers. Enjoy browsing through our visual stories and get inspired by the art of photography.
+                        </p>
 
                         <a class="cta-btn" href="contact">Available for hire</a>
 

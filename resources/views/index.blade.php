@@ -29,6 +29,7 @@
 
     <!-- Template Main CSS File -->
     <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/hero-animation.css" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: PhotoFolio
@@ -48,6 +49,12 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade"
         data-aos-delay="1500">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
@@ -63,7 +70,8 @@
                             #portraitphotography
                         </i>
                     </p>
-                    <a href="contact" class="btn-get-started"></a>
+                    {{-- <a href="contact" class="btn-get-started"></a> --}}
+                    {{-- <i class="bi bi-chevron-double-down fs-1"></i> --}}
                 </div>
             </div>
         </div>
